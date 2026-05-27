@@ -13,7 +13,8 @@
 - og:type: website · og:image: grafika 1200×630 (granat + złoty akcent, zero stocków z kalkulatorem)
 
 ## Nagłówki
-**H1:** Masz kredyt? Sprawdź, czy bank prawidłowo naliczył jego koszty.
+**H1 (live, konfrontacyjny):** Bank policzył tak, żeby było dobrze dla banku. Sprawdź, ile kosztowało to Ciebie.
+_(wariant łagodny/SEO do testów A/B: „Masz kredyt? Sprawdź, czy bank prawidłowo naliczył jego koszty." — zawiera frazę „koszty kredytu")_
 
 **H2 (kolejność na stronie):**
 - Spłacasz ratę co miesiąc. Ale czy ktoś sprawdził, jak ją policzono?

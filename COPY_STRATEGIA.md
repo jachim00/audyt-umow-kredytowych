@@ -108,11 +108,15 @@ Kredytobiorca **spłaca ratę co miesiąc, ale nigdy nie sprawdził, jak ta rata
 ### Sekcja 1 — HERO
 **Cel:** w 5 sekund komunikuje *co* sprawdzamy, *dla kogo* i *że to nic nie kosztuje na starcie*.
 
-**Nagłówek (H1):**
-> ## Masz kredyt? Sprawdź, czy bank prawidłowo naliczył jego koszty.
+**Nagłówek (H1) — wersja LIVE (konfrontacyjna, decyzja właściciela 2026-05-27):**
+> ## Bank policzył tak, żeby było dobrze dla banku. Sprawdź, ile kosztowało to Ciebie.
 
-**Podtytuł:**
-> Wstępny audyt umowy kredytowej i pożyczkowej pod kątem zgodności z ustawą o kredycie konsumenckim oraz błędów w prowizji, odsetkach, RRSO i całkowitym koszcie. Najpierw sprawdzasz — potem decydujesz.
+*Wariant łagodny/SEO (zachowany do testów A/B): „Masz kredyt? Sprawdź, czy bank prawidłowo naliczył jego koszty."*
+
+**Podtytuł (LIVE):**
+> Banki nie mylą się na swoją niekorzyść. Wstępny audyt Twojej umowy — prowizja, odsetki, RRSO, całkowity koszt i zgodność z ustawą o kredycie konsumenckim — pokaże, czy nie przepłacasz przez błędy w konstrukcji kosztów. Najpierw sprawdzasz — potem decydujesz.
+
+> **Uwaga tonalna:** strona używa konfrontacyjnego rejestru (uderza w praktyki/asymetrię „bank kontra Ty"), ale FAQ, disclaimer, ramka JDG i zapewnienia RODO pozostają stonowane i zgodne — to one trzymają wiarygodność. Granica jak w `DO_UNIKANIA_PRAWNE.md`: bez „okradł/złodziej", bez nazwanego banku, bez gwarancji wyniku.
 
 **Punkty korzyści (3–4 szybkie):**
 - ✓ Analiza kosztów: prowizja, odsetki, RRSO, całkowity koszt kredytu
