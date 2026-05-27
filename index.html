@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Audyt umowy kredytowej — analiza kosztów i zgodności | [Marka]</title>
+  <meta name="description" content="Sprawdź, czy bank prawidłowo naliczył koszty Twojego kredytu. Wstępny audyt umowy: prowizja, odsetki, RRSO, sankcja kredytu darmowego. Bez zobowiązań." />
+  <!-- PODGLĄD: noindex aktywny, dopóki strona ma placeholdery ([Marka], brak backendu). Przy publikacji produkcyjnej zmień na "index,follow". -->
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="canonical" href="https://example.com/audyt-umowy-kredytowej" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Audyt umowy kredytowej — sprawdź, czy nie przepłacasz" />
+  <meta property="og:description" content="Wstępna weryfikacja umowy kredytowej i pożyczkowej pod kątem błędów w kosztach i zgodności z ustawą o kredycie konsumenckim." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
+
+  <!-- Schema: Service -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Audyt umowy kredytowej",
+    "name": "Audyt umów kredytowych i pożyczkowych",
+    "description": "Wstępna analiza umowy kredytowej pod kątem konstrukcji kosztów, RRSO oraz zgodności z ustawą o kredycie konsumenckim.",
+    "provider": { "@type": "Organization", "name": "[Marka]" },
+    "areaServed": { "@type": "Country", "name": "Polska" }
+  }
+  </script>
+
+  <!-- Schema: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"Czy mogę sprawdzić kredyt, który już spłaciłem?","acceptedAnswer":{"@type":"Answer","text":"Tak. Analiza jest możliwa również po całkowitej spłacie zobowiązania. Potrzebne są dokumenty umowy i, jeśli to możliwe, rozliczenie spłaty. To, czy istnieją podstawy do dalszych kroków, zależy od treści dokumentów i obowiązujących terminów."}},
+      {"@type":"Question","name":"Czy audyt dotyczy kredytów gotówkowych?","acceptedAnswer":{"@type":"Answer","text":"Tak. Kredyty gotówkowe są jednym z najczęstszych przedmiotów audytu — sprawdzamy w nich m.in. prowizję, sposób naliczania odsetek, RRSO i całkowity koszt kredytu."}},
+      {"@type":"Question","name":"Czy audyt dotyczy kredytów konsolidacyjnych?","acceptedAnswer":{"@type":"Answer","text":"Tak. W konsolidacjach często występują wysokie koszty i złożona konstrukcja, dlatego są szczególnie warte weryfikacji."}},
+      {"@type":"Question","name":"Czy mogę zgłosić kredyt jako osoba prowadząca JDG?","acceptedAnswer":{"@type":"Answer","text":"Tak, ale w pierwszej kolejności ustalamy charakter umowy — czy została zawarta jako konsument, jako przedsiębiorca, czy ma charakter mieszany. Od tego zależy, na gruncie jakich przepisów możliwa jest analiza."}},
+      {"@type":"Question","name":"Czy każda umowa podlega pod ustawę o kredycie konsumenckim?","acceptedAnswer":{"@type":"Answer","text":"Nie. Ustawa obejmuje określone kategorie kredytów konsumenckich. Część umów, zwłaszcza firmowych, może jej nie podlegać. Ustalenie tego jest częścią wstępnej weryfikacji."}},
+      {"@type":"Question","name":"Czy audyt oznacza automatycznie pozew przeciwko bankowi?","acceptedAnswer":{"@type":"Answer","text":"Nie. Audyt to analiza i ocena. Czy i jakie kroki podjąć, decydujesz wyłącznie Ty po zapoznaniu się z wynikiem. Sprawdzenie umowy nie zobowiązuje do żadnych działań."}},
+      {"@type":"Question","name":"Czy muszę mieć całą umowę?","acceptedAnswer":{"@type":"Answer","text":"Najlepiej tak — pełna umowa z załącznikami i harmonogramem daje najdokładniejszą ocenę. Jeśli masz tylko część dokumentów, i tak możemy przeprowadzić wstępną weryfikację i wskazać, czego brakuje."}},
+      {"@type":"Question","name":"Czy analiza jest wiążącą opinią prawną?","acceptedAnswer":{"@type":"Answer","text":"Wstępna analiza ma charakter informacyjny i nie zastępuje pełnej porady prawnej, jeżeli nie jest świadczona przez uprawniony podmiot. Wskazuje, czy sprawa jest warta dalszego, pogłębionego prowadzenia."}},
+      {"@type":"Question","name":"Jakie dokumenty są potrzebne?","acceptedAnswer":{"@type":"Answer","text":"Minimum: umowa kredytu lub pożyczki. Pomocne: harmonogram spłat, regulamin lub tabela opłat, dokumenty ubezpieczenia, potwierdzenia spłat lub zaświadczenie o spłacie."}},
+      {"@type":"Question","name":"Czy bank może naliczać odsetki od prowizji?","acceptedAnswer":{"@type":"Answer","text":"To jeden z elementów, które sprawdzamy. Sposób ujęcia prowizji i podstawa naliczania odsetek bywają źródłem nieprawidłowości — ocena zależy od konkretnych zapisów Twojej umowy i obowiązujących przepisów."}},
+      {"@type":"Question","name":"Czym jest sankcja kredytu darmowego?","acceptedAnswer":{"@type":"Answer","text":"To przewidziany w ustawie o kredycie konsumenckim mechanizm, który w określonych sytuacjach może oznaczać spłatę kredytu bez odsetek i kosztów. Czy ma zastosowanie w Twoim przypadku, zależy od treści umowy."}},
+      {"@type":"Question","name":"Czy analiza gwarantuje odzyskanie pieniędzy?","acceptedAnswer":{"@type":"Answer","text":"Nie. Nie obiecujemy żadnego wyniku przed analizą dokumentów. Audyt mówi, czy istnieją podstawy do dalszych działań — sam w sobie nie jest gwarancją odzyskania środków ani unieważnienia umowy."}}
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- PASEK ZAUFANIA -->
+  <div class="trustbar">
+    <span class="trustbar__lock">🔒</span>
+    <span><strong>Wstępna weryfikacja umowy — bez zobowiązania.</strong> Analizę zlecasz dopiero po decyzji · Poufność i RODO</span>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="#" class="logo">[Marka]<span class="logo__dot">.</span></a>
+      <nav class="nav">
+        <a href="#co-sprawdzamy">Co sprawdzamy</a>
+        <a href="#proces">Jak to działa</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="#formularz" class="btn btn--gold btn--sm">Sprawdź swoją umowę</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow">Audyt umów kredytowych i pożyczkowych</p>
+        <h1>Masz kredyt? Sprawdź, czy bank prawidłowo naliczył jego koszty.</h1>
+        <p class="lead">
+          Wstępny audyt umowy pod kątem zgodności z ustawą o kredycie konsumenckim
+          oraz błędów w prowizji, odsetkach, RRSO i całkowitym koszcie kredytu.
+          <strong>Najpierw sprawdzasz — potem decydujesz.</strong>
+        </p>
+        <ul class="benefits-quick">
+          <li>Analiza kosztów: prowizja, odsetki, RRSO, całkowity koszt</li>
+          <li>Weryfikacja zgodności z ustawą o kredycie konsumenckim</li>
+          <li>Ocena, czy istnieją podstawy do roszczeń — na faktach, nie domysłach</li>
+          <li>Wstępna analiza nie zobowiązuje do dalszych działań</li>
+        </ul>
+        <div class="hero__cta">
+          <a href="#formularz" class="btn btn--gold">Sprawdź swoją umowę</a>
+          <a href="#proces" class="btn btn--ghost">Jak wygląda audyt?</a>
+        </div>
+      </div>
+
+      <!-- MINI FORMULARZ HERO -->
+      <aside class="hero__form card">
+        <h2 class="card__title">Prześlij umowę do analizy</h2>
+        <p class="card__sub">Zostaw kontakt — odezwiemy się z wstępną informacją.</p>
+        <form class="form form--mini" novalidate>
+          <label>Imię i nazwisko
+            <input type="text" name="name" required autocomplete="name" />
+          </label>
+          <label>Telefon
+            <input type="tel" name="phone" required autocomplete="tel" />
+          </label>
+          <label>E-mail
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+          <button type="submit" class="btn btn--gold btn--block">Prześlij umowę do analizy</button>
+          <p class="form__micro">Bez zobowiązań. Odpowiadamy zwykle w 1 dzień roboczy. Dane poufne (RODO).</p>
+        </form>
+      </aside>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section">
+    <div class="container narrow">
+      <h2>Spłacasz ratę co miesiąc. Ale czy ktoś sprawdził, jak ją policzono?</h2>
+      <p class="section__sub">
+        Większość kredytobiorców patrzy na wysokość raty. Niewielu zagląda w konstrukcję kosztów —
+        a to właśnie tam najczęściej kryją się nieprawidłowości.
+      </p>
+      <p>
+        Podpisując umowę, zakładamy, że bank policzył wszystko poprawnie. W praktyce konstrukcja
+        kosztów kredytu bywa skomplikowana, a błędy — kosztowne. Najczęściej dotyczą:
+      </p>
+      <ul class="list-dash">
+        <li><strong>prowizji doliczonej do kapitału</strong> i naliczania od niej odsetek,</li>
+        <li><strong>odsetek liczonych od kwoty obejmującej koszty</strong>, a nie od faktycznie wypłaconego kapitału,</li>
+        <li><strong>niejasnej konstrukcji RRSO</strong>, która utrudnia ocenę realnego kosztu,</li>
+        <li><strong>nieczytelnych harmonogramów spłat</strong>, których klient nie jest w stanie zweryfikować,</li>
+        <li><strong>braków w informacjach obowiązkowych</strong> wymaganych przy umowie konsumenckiej,</li>
+        <li><strong>przekonania, że umowy „już nie da się sprawdzić"</strong> — a sprawdzić ją można również po podpisaniu, a nawet po spłacie.</li>
+      </ul>
+      <blockquote class="pullquote">Rata to nie wszystko. Liczy się sposób, w jaki naliczono koszty.</blockquote>
+    </div>
+  </section>
+
+  <!-- CO SPRAWDZAMY -->
+  <section class="section section--alt" id="co-sprawdzamy">
+    <div class="container">
+      <h2>Co dokładnie analizujemy w Twojej umowie</h2>
+      <p class="section__sub">Audyt obejmuje pełną konstrukcję kosztów i obowiązki informacyjne. Punkt po punkcie.</p>
+      <ul class="checklist">
+        <li>Całkowita kwota kredytu</li>
+        <li>Całkowity koszt kredytu</li>
+        <li>Prowizje i ich ujęcie w umowie</li>
+        <li>Opłaty przygotowawcze i administracyjne</li>
+        <li>Ubezpieczenia powiązane z kredytem</li>
+        <li>Sposób naliczania odsetek (podstawa naliczania)</li>
+        <li>Rzeczywista Roczna Stopa Oprocentowania (RRSO)</li>
+        <li>Harmonogram spłat</li>
+        <li>Wypełnienie obowiązków informacyjnych przez bank</li>
+        <li>Przesłanki sankcji kredytu darmowego</li>
+        <li>Zgodność z ustawą o kredycie konsumenckim</li>
+        <li>Podstawy do ewentualnych dalszych kroków prawnych</li>
+      </ul>
+      <div class="center"><a href="#formularz" class="btn btn--gold">Zgłoś kredyt do audytu</a></div>
+    </div>
+  </section>
+
+  <!-- DLA KOGO -->
+  <section class="section">
+    <div class="container">
+      <h2>Dla kogo jest audyt umowy kredytowej</h2>
+      <p class="section__sub">Jeśli rozpoznajesz się w którymkolwiek punkcie — warto sprawdzić.</p>
+      <div class="cards">
+        <div class="cards__item"><h3>Masz aktywny kredyt</h3><p>I chcesz wiedzieć, czy koszty naliczono prawidłowo.</p></div>
+        <div class="cards__item"><h3>Spłaciłeś już kredyt</h3><p>Analiza jest możliwa również po całkowitej spłacie.</p></div>
+        <div class="cards__item"><h3>Masz kredyt konsolidacyjny</h3><p>Duże kwoty kosztów to częste źródło nieprawidłowości.</p></div>
+        <div class="cards__item"><h3>Prowadzisz JDG</h3><p>Najpierw ustalimy charakter umowy (konsument / przedsiębiorca), potem dobierzemy podstawę analizy.</p></div>
+        <div class="cards__item"><h3>Jesteś managerem / masz wyższe dochody</h3><p>Większe lub liczne zobowiązania = większa stawka błędu.</p></div>
+        <div class="cards__item"><h3>Pracujesz w sektorze finansowym</h3><p>Znasz mechanizmy; sprawdź własną umowę zamiast zakładać, że jest poprawna.</p></div>
+        <div class="cards__item"><h3>Podejrzewasz zawyżone koszty</h3><p>Przejdź od przeczucia do konkretnej oceny.</p></div>
+        <div class="cards__item"><h3>Nie wiesz, czy umowa podlega ustawie</h3><p>To też ustalamy w ramach wstępnej weryfikacji.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DLACZEGO WARTO -->
+  <section class="section section--alt">
+    <div class="container narrow">
+      <h2>Dlaczego warto sprawdzić umowę, nawet jeśli „wszystko wydaje się w porządku"</h2>
+      <ul class="list-arrow">
+        <li>Banki i pożyczkodawcy <strong>również popełniają błędy</strong> — w konstrukcji kosztów, obowiązkach informacyjnych i wyliczeniach.</li>
+        <li><strong>Jeden zapis</strong> potrafi wpływać na całkowity koszt zobowiązania.</li>
+        <li>Większość ludzi patrzy <strong>tylko na ratę</strong>, nie na sposób naliczenia kosztów.</li>
+        <li>Audyt pozwala przejść <strong>od domysłów do konkretnej oceny.</strong></li>
+        <li>Weryfikacja pokazuje, <strong>czy w ogóle istnieją podstawy do roszczeń</strong> — zanim podejmiesz krok.</li>
+        <li>Bez analizy spłacasz dalej <strong>bez wiedzy, czy koszty naliczono prawidłowo.</strong></li>
+      </ul>
+      <blockquote class="pullquote">Najpierw sprawdź. Potem zdecyduj.</blockquote>
+    </div>
+  </section>
+
+  <!-- PROCES -->
+  <section class="section" id="proces">
+    <div class="container">
+      <h2>Jak wygląda audyt — krok po kroku</h2>
+      <ol class="steps">
+        <li><span class="steps__num">1</span><h3>Wypełniasz formularz</h3><p>Kilka podstawowych informacji o kredycie.</p></li>
+        <li><span class="steps__num">2</span><h3>Przesyłasz umowę</h3><p>Lub podstawowe dane zobowiązania (PDF, skan, zdjęcie).</p></li>
+        <li><span class="steps__num">3</span><h3>Ekspert analizuje dokumenty</h3><p>Konstrukcję kosztów i zgodność z przepisami.</p></li>
+        <li><span class="steps__num">4</span><h3>Otrzymujesz wstępną informację</h3><p>Czy mogą występować nieprawidłowości i jakie są możliwe dalsze kroki.</p></li>
+      </ol>
+      <p class="premium-note">Bez chaosu, bez niezrozumiałego języka prawniczego i bez obiecywania wyniku przed analizą dokumentów.</p>
+      <div class="center"><a href="#formularz" class="btn btn--gold">Prześlij umowę do analizy</a></div>
+    </div>
+  </section>
+
+  <!-- SYGNAŁY OSTRZEGAWCZE -->
+  <section class="section section--alt">
+    <div class="container narrow">
+      <h2>Sygnały, które warto sprawdzić w pierwszej kolejności</h2>
+      <p class="section__sub">Jeśli choć jeden brzmi znajomo — audyt jest uzasadniony.</p>
+      <ul class="signals">
+        <li>Wysoka prowizja w stosunku do kwoty kredytu</li>
+        <li>Kredyt konsolidacyjny z dużą kwotą kosztów</li>
+        <li>Niejasne lub „obowiązkowe" ubezpieczenie</li>
+        <li>Odsetki liczone od kwoty wyższej niż wypłacony kapitał</li>
+        <li>Brak czytelnej informacji o całkowitym koszcie</li>
+        <li>Nieprzejrzyste lub trudne do zweryfikowania RRSO</li>
+        <li>Harmonogram, którego nie rozumiesz</li>
+        <li>Wcześniejsza spłata bez pełnego rozliczenia kosztów</li>
+        <li>Kilka kredytów zaciąganych jeden po drugim</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- KORZYŚCI -->
+  <section class="section">
+    <div class="container">
+      <h2>Co realnie zyskujesz dzięki audytowi</h2>
+      <div class="cards cards--3">
+        <div class="cards__item"><p>Dowiesz się, <strong>czy umowa wymaga głębszej analizy.</strong></p></div>
+        <div class="cards__item"><p>Poznasz <strong>potencjalne błędy</strong> w konstrukcji kredytu.</p></div>
+        <div class="cards__item"><p>Sprawdzisz, <strong>czy koszty naliczono prawidłowo.</strong></p></div>
+        <div class="cards__item"><p>Uzyskasz <strong>ocenę, czy warto</strong> podejmować dalsze działania.</p></div>
+        <div class="cards__item"><p>Możliwe <strong>zidentyfikowanie podstaw do roszczeń.</strong></p></div>
+        <div class="cards__item"><p>Decyzję podejmiesz <strong>na podstawie analizy, nie domysłów.</strong></p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARZ GŁÓWNY -->
+  <section class="section section--dark" id="formularz">
+    <div class="container narrow">
+      <h2 class="on-dark">Zgłoś kredyt do wstępnej weryfikacji</h2>
+      <p class="section__sub on-dark">
+        Wypełnij formularz i — jeśli chcesz — załącz umowę. Otrzymasz wstępną informację,
+        czy Twoja umowa kwalifikuje się do analizy. Bez zobowiązań.
+      </p>
+
+      <form class="form form--full card" novalidate enctype="multipart/form-data">
+        <div class="form__row">
+          <label>Imię i nazwisko *
+            <input type="text" name="name" required autocomplete="name" />
+          </label>
+          <label>Telefon *
+            <input type="tel" name="phone" required autocomplete="tel" />
+          </label>
+        </div>
+
+        <div class="form__row">
+          <label>E-mail *
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+          <label>Rodzaj kredytu
+            <select name="loan_type">
+              <option value="">— wybierz —</option>
+              <option>Gotówkowy</option>
+              <option>Konsolidacyjny</option>
+              <option>Ratalny</option>
+              <option>Pożyczka</option>
+              <option>Limit / karta kredytowa</option>
+              <option>Hipoteczny</option>
+              <option>Inny</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="form__row">
+          <label>Nazwa banku lub instytucji
+            <input type="text" name="bank" />
+          </label>
+          <label>Przybliżona kwota kredytu
+            <select name="amount">
+              <option value="">— wybierz —</option>
+              <option>do 20 000 zł</option>
+              <option>20 000 – 50 000 zł</option>
+              <option>50 000 – 100 000 zł</option>
+              <option>100 000 – 300 000 zł</option>
+              <option>powyżej 300 000 zł</option>
+            </select>
+          </label>
+        </div>
+
+        <fieldset class="form__group">
+          <legend>Status kredytu</legend>
+          <label class="radio"><input type="radio" name="status" value="aktywny" /> Aktywny</label>
+          <label class="radio"><input type="radio" name="status" value="splacony" /> Spłacony</label>
+        </fieldset>
+
+        <fieldset class="form__group">
+          <legend>Charakter umowy</legend>
+          <label class="radio"><input type="radio" name="character" value="konsument" /> Jako konsument</label>
+          <label class="radio"><input type="radio" name="character" value="jdg" /> JDG</label>
+          <label class="radio"><input type="radio" name="character" value="firma" /> Firma</label>
+          <label class="radio"><input type="radio" name="character" value="niewiem" /> Nie wiem</label>
+        </fieldset>
+
+        <label class="file">Załącz umowę (opcjonalnie) — PDF / JPG / PNG, do 15 MB
+          <input type="file" name="document" accept=".pdf,.jpg,.jpeg,.png" />
+        </label>
+
+        <label class="check">
+          <input type="checkbox" name="rodo" required />
+          <span>Wyrażam zgodę na przetwarzanie moich danych osobowych w celu obsługi zgłoszenia, zgodnie z <a href="#">polityką prywatności</a> (RODO). *</span>
+        </label>
+
+        <label class="check">
+          <input type="checkbox" name="prelim" />
+          <span>Chcę otrzymać wstępną informację, czy moja umowa kwalifikuje się do analizy.</span>
+        </label>
+
+        <button type="submit" class="btn btn--gold btn--block">Prześlij umowę do audytu</button>
+        <p class="form__micro on-dark">Bez zobowiązań. Dane przetwarzamy poufnie zgodnie z RODO. Odpowiadamy zwykle w 1 dzień roboczy.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container narrow">
+      <h2>Najczęściej zadawane pytania</h2>
+      <div class="faq">
+        <details><summary>Czy mogę sprawdzić kredyt, który już spłaciłem?</summary><div class="faq__a">Tak. Analiza jest możliwa również po całkowitej spłacie zobowiązania. Potrzebne są dokumenty umowy i — jeśli to możliwe — rozliczenie spłaty. To, czy istnieją podstawy do dalszych kroków, zależy od treści dokumentów i obowiązujących terminów.</div></details>
+        <details><summary>Czy audyt dotyczy kredytów gotówkowych?</summary><div class="faq__a">Tak. Kredyty gotówkowe są jednym z najczęstszych przedmiotów audytu — sprawdzamy w nich m.in. prowizję, sposób naliczania odsetek, RRSO i całkowity koszt kredytu.</div></details>
+        <details><summary>Czy audyt dotyczy kredytów konsolidacyjnych?</summary><div class="faq__a">Tak. W konsolidacjach często występują wysokie koszty i złożona konstrukcja, dlatego są szczególnie warte weryfikacji.</div></details>
+        <details><summary>Czy mogę zgłosić kredyt jako osoba prowadząca JDG?</summary><div class="faq__a">Tak, ale w pierwszej kolejności ustalamy charakter umowy — czy została zawarta jako konsument, jako przedsiębiorca, czy ma charakter mieszany. Od tego zależy, na gruncie jakich przepisów możliwa jest analiza. Ustawa o kredycie konsumenckim co do zasady dotyczy konsumentów.</div></details>
+        <details><summary>Czy każda umowa podlega pod ustawę o kredycie konsumenckim?</summary><div class="faq__a">Nie. Ustawa obejmuje określone kategorie kredytów konsumenckich. Część umów — zwłaszcza firmowych — może jej nie podlegać. Ustalenie tego jest częścią wstępnej weryfikacji.</div></details>
+        <details><summary>Czy audyt oznacza automatycznie pozew przeciwko bankowi?</summary><div class="faq__a">Nie. Audyt to analiza i ocena. Czy i jakie kroki podjąć, decydujesz wyłącznie Ty — po zapoznaniu się z wynikiem. Sprawdzenie umowy nie zobowiązuje do żadnych działań.</div></details>
+        <details><summary>Czy muszę mieć całą umowę?</summary><div class="faq__a">Najlepiej tak — pełna umowa z załącznikami i harmonogramem daje najdokładniejszą ocenę. Jeśli masz tylko część dokumentów, i tak możemy przeprowadzić wstępną weryfikację i wskazać, czego brakuje.</div></details>
+        <details><summary>Czy analiza jest wiążącą opinią prawną?</summary><div class="faq__a">Wstępna analiza ma charakter informacyjny i nie zastępuje pełnej porady prawnej, jeżeli nie jest świadczona przez uprawniony podmiot (adwokata lub radcę prawnego). Wskazuje, czy sprawa jest warta dalszego, pogłębionego prowadzenia.</div></details>
+        <details><summary>Jakie dokumenty są potrzebne?</summary><div class="faq__a">Minimum: umowa kredytu/pożyczki. Pomocne: harmonogram spłat, regulamin/tabela opłat, dokumenty ubezpieczenia, potwierdzenia spłat lub zaświadczenie o spłacie (przy kredytach zamkniętych).</div></details>
+        <details><summary>Czy bank może naliczać odsetki od prowizji?</summary><div class="faq__a">To jeden z elementów, które sprawdzamy. Sposób ujęcia prowizji i podstawa naliczania odsetek bywają źródłem nieprawidłowości — ocena zależy od konkretnych zapisów Twojej umowy i obowiązujących przepisów.</div></details>
+        <details><summary>Czym jest sankcja kredytu darmowego?</summary><div class="faq__a">To przewidziany w ustawie o kredycie konsumenckim mechanizm, który w określonych sytuacjach (np. naruszenie obowiązków informacyjnych lub wymogów co do treści umowy) może oznaczać spłatę kredytu bez odsetek i kosztów. Czy ma zastosowanie w Twoim przypadku, zależy od treści umowy — to właśnie weryfikujemy.</div></details>
+        <details><summary>Czy analiza gwarantuje odzyskanie pieniędzy?</summary><div class="faq__a">Nie. Nie obiecujemy żadnego wyniku przed analizą dokumentów. Audyt mówi, czy istnieją podstawy do dalszych działań — sam w sobie nie jest gwarancją odzyskania środków ani unieważnienia umowy.</div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <section class="section section--muted">
+    <div class="container narrow">
+      <h2 class="h-sm">Ważne informacje</h2>
+      <p class="disclaimer">
+        Wstępna analiza umowy nie jest gwarancją uzyskania jakiegokolwiek roszczenia ani odzyskania środków.
+        Wynik zależy od treści i kompletności przekazanych dokumentów. Nie każda umowa kwalifikuje się do
+        dalszych działań prawnych. Wstępna analiza ma charakter informacyjny i nie zastępuje pełnej porady
+        prawnej, jeżeli nie jest świadczona przez podmiot do tego uprawniony (adwokata lub radcę prawnego).
+        Przedstawione treści nie stanowią obietnicy wyniku. Decyzję o dalszych krokach podejmuje wyłącznie klient.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span class="logo logo--footer">[Marka]<span class="logo__dot">.</span></span>
+      <nav class="footer-nav">
+        <a href="#">Polityka prywatności</a>
+        <a href="#">Regulamin</a>
+        <a href="#co-sprawdzamy">Co sprawdzamy</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <span class="copy">© <span id="year"></span> [Marka]. Wszelkie prawa zastrzeżone.</span>
+    </div>
+  </footer>
+
+  <!-- STICKY CTA MOBILE -->
+  <a href="#formularz" class="sticky-cta">Sprawdź swoją umowę</a>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
