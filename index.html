@@ -15,53 +15,71 @@
   <meta property="og:type" content="website" />
   <meta property="og:image" content="assets/og-image.png" />
 
-  <!-- Fonts -->
+  <!-- Fonts: Plus Jakarta Sans (display) + Inter (body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="assets/styles.css" />
 
   <!-- Schema: Service -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Audyt umowy kredytowej",
-    "name": "Audyt umów kredytowych i pożyczkowych",
-    "description": "Wstępna analiza umowy kredytowej pod kątem konstrukcji kosztów, RRSO oraz zgodności z ustawą o kredycie konsumenckim.",
-    "provider": { "@type": "Organization", "name": "[Marka]" },
-    "areaServed": { "@type": "Country", "name": "Polska" }
-  }
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Audyt umowy kredytowej","name":"Audyt umów kredytowych i pożyczkowych","description":"Wstępna analiza umowy kredytowej pod kątem konstrukcji kosztów, RRSO oraz zgodności z ustawą o kredycie konsumenckim.","provider":{"@type":"Organization","name":"[Marka]"},"areaServed":{"@type":"Country","name":"Polska"}}
   </script>
-
   <!-- Schema: FAQPage -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {"@type":"Question","name":"Czy mogę sprawdzić kredyt, który już spłaciłem?","acceptedAnswer":{"@type":"Answer","text":"Tak. Analiza jest możliwa również po całkowitej spłacie zobowiązania. Potrzebne są dokumenty umowy i, jeśli to możliwe, rozliczenie spłaty. To, czy istnieją podstawy do dalszych kroków, zależy od treści dokumentów i obowiązujących terminów."}},
-      {"@type":"Question","name":"Czy audyt dotyczy kredytów gotówkowych?","acceptedAnswer":{"@type":"Answer","text":"Tak. Kredyty gotówkowe są jednym z najczęstszych przedmiotów audytu — sprawdzamy w nich m.in. prowizję, sposób naliczania odsetek, RRSO i całkowity koszt kredytu."}},
-      {"@type":"Question","name":"Czy audyt dotyczy kredytów konsolidacyjnych?","acceptedAnswer":{"@type":"Answer","text":"Tak. W konsolidacjach często występują wysokie koszty i złożona konstrukcja, dlatego są szczególnie warte weryfikacji."}},
-      {"@type":"Question","name":"Czy mogę zgłosić kredyt jako osoba prowadząca JDG?","acceptedAnswer":{"@type":"Answer","text":"Tak, ale w pierwszej kolejności ustalamy charakter umowy — czy została zawarta jako konsument, jako przedsiębiorca, czy ma charakter mieszany. Od tego zależy, na gruncie jakich przepisów możliwa jest analiza."}},
-      {"@type":"Question","name":"Czy każda umowa podlega pod ustawę o kredycie konsumenckim?","acceptedAnswer":{"@type":"Answer","text":"Nie. Ustawa obejmuje określone kategorie kredytów konsumenckich. Część umów, zwłaszcza firmowych, może jej nie podlegać. Ustalenie tego jest częścią wstępnej weryfikacji."}},
-      {"@type":"Question","name":"Czy audyt oznacza automatycznie pozew przeciwko bankowi?","acceptedAnswer":{"@type":"Answer","text":"Nie. Audyt to analiza i ocena. Czy i jakie kroki podjąć, decydujesz wyłącznie Ty po zapoznaniu się z wynikiem. Sprawdzenie umowy nie zobowiązuje do żadnych działań."}},
-      {"@type":"Question","name":"Czy muszę mieć całą umowę?","acceptedAnswer":{"@type":"Answer","text":"Najlepiej tak — pełna umowa z załącznikami i harmonogramem daje najdokładniejszą ocenę. Jeśli masz tylko część dokumentów, i tak możemy przeprowadzić wstępną weryfikację i wskazać, czego brakuje."}},
-      {"@type":"Question","name":"Czy analiza jest wiążącą opinią prawną?","acceptedAnswer":{"@type":"Answer","text":"Wstępna analiza ma charakter informacyjny i nie zastępuje pełnej porady prawnej, jeżeli nie jest świadczona przez uprawniony podmiot. Wskazuje, czy sprawa jest warta dalszego, pogłębionego prowadzenia."}},
-      {"@type":"Question","name":"Jakie dokumenty są potrzebne?","acceptedAnswer":{"@type":"Answer","text":"Minimum: umowa kredytu lub pożyczki. Pomocne: harmonogram spłat, regulamin lub tabela opłat, dokumenty ubezpieczenia, potwierdzenia spłat lub zaświadczenie o spłacie."}},
-      {"@type":"Question","name":"Czy bank może naliczać odsetki od prowizji?","acceptedAnswer":{"@type":"Answer","text":"To jeden z elementów, które sprawdzamy. Sposób ujęcia prowizji i podstawa naliczania odsetek bywają źródłem nieprawidłowości — ocena zależy od konkretnych zapisów Twojej umowy i obowiązujących przepisów."}},
-      {"@type":"Question","name":"Czym jest sankcja kredytu darmowego?","acceptedAnswer":{"@type":"Answer","text":"To przewidziany w ustawie o kredycie konsumenckim mechanizm, który w określonych sytuacjach może oznaczać spłatę kredytu bez odsetek i kosztów. Czy ma zastosowanie w Twoim przypadku, zależy od treści umowy."}},
-      {"@type":"Question","name":"Czy analiza gwarantuje odzyskanie pieniędzy?","acceptedAnswer":{"@type":"Answer","text":"Nie. Nie obiecujemy żadnego wyniku przed analizą dokumentów. Audyt mówi, czy istnieją podstawy do dalszych działań — sam w sobie nie jest gwarancją odzyskania środków ani unieważnienia umowy."}}
-    ]
-  }
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"Czy mogę sprawdzić kredyt, który już spłaciłem?","acceptedAnswer":{"@type":"Answer","text":"Tak. Analiza jest możliwa również po całkowitej spłacie zobowiązania. Potrzebne są dokumenty umowy i, jeśli to możliwe, rozliczenie spłaty. To, czy istnieją podstawy do dalszych kroków, zależy od treści dokumentów i obowiązujących terminów."}},
+    {"@type":"Question","name":"Czy audyt dotyczy kredytów gotówkowych?","acceptedAnswer":{"@type":"Answer","text":"Tak. Kredyty gotówkowe są jednym z najczęstszych przedmiotów audytu — sprawdzamy w nich m.in. prowizję, sposób naliczania odsetek, RRSO i całkowity koszt kredytu."}},
+    {"@type":"Question","name":"Czy audyt dotyczy kredytów konsolidacyjnych?","acceptedAnswer":{"@type":"Answer","text":"Tak. W konsolidacjach często występują wysokie koszty i złożona konstrukcja, dlatego są szczególnie warte weryfikacji."}},
+    {"@type":"Question","name":"Czy mogę zgłosić kredyt jako osoba prowadząca JDG?","acceptedAnswer":{"@type":"Answer","text":"Tak, ale w pierwszej kolejności ustalamy charakter umowy — czy została zawarta jako konsument, jako przedsiębiorca, czy ma charakter mieszany."}},
+    {"@type":"Question","name":"Czy każda umowa podlega pod ustawę o kredycie konsumenckim?","acceptedAnswer":{"@type":"Answer","text":"Nie. Ustawa obejmuje określone kategorie kredytów konsumenckich. Część umów, zwłaszcza firmowych, może jej nie podlegać. Ustalenie tego jest częścią wstępnej weryfikacji."}},
+    {"@type":"Question","name":"Czy audyt oznacza automatycznie pozew przeciwko bankowi?","acceptedAnswer":{"@type":"Answer","text":"Nie. Audyt to analiza i ocena. Czy i jakie kroki podjąć, decydujesz wyłącznie Ty po zapoznaniu się z wynikiem."}},
+    {"@type":"Question","name":"Czy muszę mieć całą umowę?","acceptedAnswer":{"@type":"Answer","text":"Najlepiej tak — pełna umowa z załącznikami i harmonogramem daje najdokładniejszą ocenę. Jeśli masz tylko część dokumentów, i tak możemy przeprowadzić wstępną weryfikację."}},
+    {"@type":"Question","name":"Czy analiza jest wiążącą opinią prawną?","acceptedAnswer":{"@type":"Answer","text":"Wstępna analiza ma charakter informacyjny i nie zastępuje pełnej porady prawnej, jeżeli nie jest świadczona przez uprawniony podmiot."}},
+    {"@type":"Question","name":"Jakie dokumenty są potrzebne?","acceptedAnswer":{"@type":"Answer","text":"Minimum: umowa kredytu lub pożyczki. Pomocne: harmonogram spłat, regulamin lub tabela opłat, dokumenty ubezpieczenia, potwierdzenia spłat."}},
+    {"@type":"Question","name":"Czy bank może naliczać odsetki od prowizji?","acceptedAnswer":{"@type":"Answer","text":"To jeden z elementów, które sprawdzamy. Sposób ujęcia prowizji i podstawa naliczania odsetek bywają źródłem nieprawidłowości."}},
+    {"@type":"Question","name":"Czym jest sankcja kredytu darmowego?","acceptedAnswer":{"@type":"Answer","text":"To przewidziany w ustawie o kredycie konsumenckim mechanizm, który w określonych sytuacjach może oznaczać spłatę kredytu bez odsetek i kosztów."}},
+    {"@type":"Question","name":"Czy analiza gwarantuje odzyskanie pieniędzy?","acceptedAnswer":{"@type":"Answer","text":"Nie. Nie obiecujemy żadnego wyniku przed analizą dokumentów. Audyt mówi, czy istnieją podstawy do dalszych działań."}}
+  ]}
   </script>
 </head>
 <body>
 
+  <!-- ===== SVG SPRITE (ikony liniowe) ===== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></symbol>
+      <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></symbol>
+      <symbol id="i-doc-check" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><polyline points="9 15 11 17 15 13"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/></symbol>
+      <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18"/><path d="M5 7h14"/><path d="M5 7l-3 6a3 3 0 0 0 6 0z"/><path d="M19 7l-3 6a3 3 0 0 0 6 0z"/><path d="M8 21h8"/></symbol>
+      <symbol id="i-percent" viewBox="0 0 24 24"><line x1="19" y1="5" x2="5" y2="19"/><circle cx="7.5" cy="7.5" r="2"/><circle cx="16.5" cy="16.5" r="2"/></symbol>
+      <symbol id="i-chart" viewBox="0 0 24 24"><line x1="4" y1="20" x2="20" y2="20"/><rect x="6" y="11" width="3" height="7"/><rect x="11" y="7" width="3" height="11"/><rect x="16" y="4" width="3" height="14"/></symbol>
+      <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3l9 16H3z"/><line x1="12" y1="9" x2="12" y2="14"/><circle cx="12" cy="17" r=".7" fill="currentColor" stroke="none"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+      <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><line x1="3" y1="12" x2="21" y2="12"/></symbol>
+      <symbol id="i-bank" viewBox="0 0 24 24"><path d="M3 10l9-6 9 6"/><line x1="4" y1="10" x2="4" y2="20"/><line x1="20" y1="10" x2="20" y2="20"/><line x1="9.5" y1="10" x2="9.5" y2="20"/><line x1="14.5" y1="10" x2="14.5" y2="20"/><line x1="2" y1="20" x2="22" y2="20"/></symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="8" y1="3" x2="8" y2="6"/><line x1="16" y1="3" x2="16" y2="6"/></symbol>
+      <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16"/><circle cx="12" cy="8" r=".7" fill="currentColor" stroke="none"/></symbol>
+      <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4h13a2 2 0 0 1 2 2v14H6a2 2 0 0 1-2-2z"/><path d="M4 18a2 2 0 0 1 2-2h13"/></symbol>
+      <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 4h12l-2 4 2 4H5"/></symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24"><polygon points="12 2 22 8 12 14 2 8"/><polyline points="3 13 12 19 21 13"/></symbol>
+      <symbol id="i-edit" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></symbol>
+      <symbol id="i-upload" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 9 12 4 17 9"/><line x1="12" y1="4" x2="12" y2="16"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+      <symbol id="i-trending" viewBox="0 0 24 24"><polyline points="3 17 9 11 13 15 21 7"/><polyline points="15 7 21 7 21 13"/></symbol>
+      <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.2a2.5 2.5 0 0 1 4.5 1.5c0 1.6-2 2-2 3"/><circle cx="12" cy="16.5" r=".7" fill="currentColor" stroke="none"/></symbol>
+      <symbol id="i-coins" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9.6 9.4c.4-1 1.3-1.5 2.4-1.5 1.4 0 2.4.8 2.4 1.8 0 2.3-4.8 1.3-4.8 3.6 0 1 1 1.8 2.4 1.8 1.1 0 2-.5 2.4-1.4"/></symbol>
+    </defs>
+  </svg>
+
   <!-- PASEK ZAUFANIA -->
   <div class="trustbar">
-    <span class="trustbar__lock">🔒</span>
+    <svg class="ico ico--xs"><use href="#i-lock"/></svg>
     <span><strong>Wstępna weryfikacja umowy — bez zobowiązania.</strong> Analizę zlecasz dopiero po decyzji · Poufność i RODO</span>
   </div>
 
@@ -71,6 +89,7 @@
       <a href="#" class="logo">[Marka]<span class="logo__dot">.</span></a>
       <nav class="nav">
         <a href="#co-sprawdzamy">Co sprawdzamy</a>
+        <a href="#dla-kogo">Dla kogo</a>
         <a href="#proces">Jak to działa</a>
         <a href="#faq">FAQ</a>
       </nav>
@@ -80,9 +99,14 @@
 
   <!-- HERO -->
   <section class="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <span class="blob blob--1"></span>
+      <span class="blob blob--2"></span>
+      <span class="grid-overlay"></span>
+    </div>
     <div class="container hero__grid">
-      <div class="hero__copy">
-        <p class="eyebrow">Audyt umów kredytowych i pożyczkowych</p>
+      <div class="hero__copy reveal">
+        <span class="eyebrow"><svg class="ico ico--xs"><use href="#i-scale"/></svg> Audyt umów kredytowych i pożyczkowych</span>
         <h1>Masz kredyt? Sprawdź, czy bank prawidłowo naliczył jego koszty.</h1>
         <p class="lead">
           Wstępny audyt umowy pod kątem zgodności z ustawą o kredycie konsumenckim
@@ -90,99 +114,164 @@
           <strong>Najpierw sprawdzasz — potem decydujesz.</strong>
         </p>
         <ul class="benefits-quick">
-          <li>Analiza kosztów: prowizja, odsetki, RRSO, całkowity koszt</li>
-          <li>Weryfikacja zgodności z ustawą o kredycie konsumenckim</li>
-          <li>Ocena, czy istnieją podstawy do roszczeń — na faktach, nie domysłach</li>
-          <li>Wstępna analiza nie zobowiązuje do dalszych działań</li>
+          <li><svg class="ico"><use href="#i-chart"/></svg> Analiza kosztów: prowizja, odsetki, RRSO, całkowity koszt</li>
+          <li><svg class="ico"><use href="#i-book"/></svg> Weryfikacja zgodności z ustawą o kredycie konsumenckim</li>
+          <li><svg class="ico"><use href="#i-scale"/></svg> Ocena, czy istnieją podstawy do roszczeń — na faktach</li>
+          <li><svg class="ico"><use href="#i-shield"/></svg> Wstępna analiza nie zobowiązuje do dalszych działań</li>
         </ul>
         <div class="hero__cta">
-          <a href="#formularz" class="btn btn--gold">Sprawdź swoją umowę</a>
-          <a href="#proces" class="btn btn--ghost">Jak wygląda audyt?</a>
+          <a href="#formularz" class="btn btn--gold btn--lg">Sprawdź swoją umowę <svg class="ico"><use href="#i-arrow"/></svg></a>
+          <a href="#proces" class="btn btn--ghost btn--lg">Jak wygląda audyt?</a>
+        </div>
+        <div class="hero__pills">
+          <span class="pill"><svg class="ico ico--xs"><use href="#i-check"/></svg> Bez zobowiązań</span>
+          <span class="pill"><svg class="ico ico--xs"><use href="#i-clock"/></svg> Odpowiedź w 1 dzień roboczy</span>
+          <span class="pill"><svg class="ico ico--xs"><use href="#i-lock"/></svg> Poufność i RODO</span>
         </div>
       </div>
 
-      <!-- MINI FORMULARZ HERO -->
-      <aside class="hero__form card">
+      <!-- FORMULARZ HERO -->
+      <aside class="hero__form card reveal">
+        <div class="card__badge"><svg class="ico ico--xs"><use href="#i-shield"/></svg> Bezpieczne zgłoszenie</div>
         <h2 class="card__title">Prześlij umowę do analizy</h2>
         <p class="card__sub">Zostaw kontakt — odezwiemy się z wstępną informacją.</p>
         <form class="form form--mini" novalidate>
-          <label>Imię i nazwisko
-            <input type="text" name="name" required autocomplete="name" />
-          </label>
-          <label>Telefon
-            <input type="tel" name="phone" required autocomplete="tel" />
-          </label>
-          <label>E-mail
-            <input type="email" name="email" required autocomplete="email" />
-          </label>
+          <label>Imię i nazwisko<input type="text" name="name" required autocomplete="name" /></label>
+          <label>Telefon<input type="tel" name="phone" required autocomplete="tel" /></label>
+          <label>E-mail<input type="email" name="email" required autocomplete="email" /></label>
           <button type="submit" class="btn btn--gold btn--block">Prześlij umowę do analizy</button>
-          <p class="form__micro">Bez zobowiązań. Odpowiadamy zwykle w 1 dzień roboczy. Dane poufne (RODO).</p>
+          <p class="form__micro"><svg class="ico ico--xs"><use href="#i-lock"/></svg> Bez zobowiązań. Dane poufne (RODO). Odpowiadamy zwykle w 1 dzień roboczy.</p>
         </form>
       </aside>
     </div>
   </section>
 
+  <!-- PASEK WIARYGODNOŚCI -->
+  <section class="credbar">
+    <div class="container credbar__grid">
+      <div class="credbar__item reveal"><svg class="ico"><use href="#i-doc-check"/></svg><div><strong>12 punktów</strong><span>pełnej kontroli umowy</span></div></div>
+      <div class="credbar__item reveal"><svg class="ico"><use href="#i-clock"/></svg><div><strong>1 dzień roboczy</strong><span>typowy czas odpowiedzi</span></div></div>
+      <div class="credbar__item reveal"><svg class="ico"><use href="#i-check"/></svg><div><strong>Również po spłacie</strong><span>analiza zamkniętych kredytów</span></div></div>
+      <div class="credbar__item reveal"><svg class="ico"><use href="#i-lock"/></svg><div><strong>Poufność i RODO</strong><span>bezpieczne przesyłanie</span></div></div>
+    </div>
+  </section>
+
   <!-- PROBLEM -->
   <section class="section">
-    <div class="container narrow">
-      <h2>Spłacasz ratę co miesiąc. Ale czy ktoś sprawdził, jak ją policzono?</h2>
-      <p class="section__sub">
-        Większość kredytobiorców patrzy na wysokość raty. Niewielu zagląda w konstrukcję kosztów —
-        a to właśnie tam najczęściej kryją się nieprawidłowości.
-      </p>
-      <p>
-        Podpisując umowę, zakładamy, że bank policzył wszystko poprawnie. W praktyce konstrukcja
-        kosztów kredytu bywa skomplikowana, a błędy — kosztowne. Najczęściej dotyczą:
-      </p>
-      <ul class="list-dash">
-        <li><strong>prowizji doliczonej do kapitału</strong> i naliczania od niej odsetek,</li>
-        <li><strong>odsetek liczonych od kwoty obejmującej koszty</strong>, a nie od faktycznie wypłaconego kapitału,</li>
-        <li><strong>niejasnej konstrukcji RRSO</strong>, która utrudnia ocenę realnego kosztu,</li>
-        <li><strong>nieczytelnych harmonogramów spłat</strong>, których klient nie jest w stanie zweryfikować,</li>
-        <li><strong>braków w informacjach obowiązkowych</strong> wymaganych przy umowie konsumenckiej,</li>
-        <li><strong>przekonania, że umowy „już nie da się sprawdzić"</strong> — a sprawdzić ją można również po podpisaniu, a nawet po spłacie.</li>
-      </ul>
-      <blockquote class="pullquote">Rata to nie wszystko. Liczy się sposób, w jaki naliczono koszty.</blockquote>
+    <div class="container split">
+      <div class="split__text reveal">
+        <span class="eyebrow eyebrow--green">Problem</span>
+        <h2>Spłacasz ratę co miesiąc. Ale czy ktoś sprawdził, jak ją policzono?</h2>
+        <p class="section__sub">
+          Większość kredytobiorców patrzy na wysokość raty. Niewielu zagląda w konstrukcję kosztów —
+          a to właśnie tam najczęściej kryją się nieprawidłowości.
+        </p>
+        <ul class="list-dash">
+          <li><strong>prowizja doliczona do kapitału</strong> i naliczanie od niej odsetek,</li>
+          <li><strong>odsetki liczone od kwoty obejmującej koszty</strong>, a nie od wypłaconego kapitału,</li>
+          <li><strong>niejasna konstrukcja RRSO</strong>, utrudniająca ocenę realnego kosztu,</li>
+          <li><strong>nieczytelne harmonogramy spłat</strong>, których nie da się zweryfikować,</li>
+          <li><strong>braki w informacjach obowiązkowych</strong> przy umowie konsumenckiej,</li>
+          <li><strong>przekonanie, że „już nie da się sprawdzić"</strong> — a można, też po spłacie.</li>
+        </ul>
+        <blockquote class="pullquote">Rata to nie wszystko. Liczy się sposób, w jaki naliczono koszty.</blockquote>
+      </div>
+
+      <!-- ILUSTRACJA: audyt dokumentu -->
+      <div class="split__media reveal">
+        <svg class="illu" viewBox="0 0 520 460" role="img" aria-label="Ilustracja: audyt umowy kredytowej z lupą na pozycji kosztów">
+          <defs>
+            <linearGradient id="gNavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#13315C"/><stop offset="1" stop-color="#0B2545"/></linearGradient>
+            <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="14" stdDeviation="22" flood-color="#0B2545" flood-opacity="0.18"/></filter>
+          </defs>
+          <!-- panel tła -->
+          <rect x="20" y="30" width="480" height="400" rx="26" fill="#EEF3F8"/>
+          <circle cx="455" cy="70" r="46" fill="#E4EDE7"/>
+          <circle cx="70" cy="400" r="30" fill="#F3ECD4"/>
+          <!-- dokument -->
+          <g filter="url(#soft)">
+            <rect x="96" y="62" width="300" height="360" rx="16" fill="#fff"/>
+            <rect x="96" y="62" width="300" height="56" rx="16" fill="url(#gNavy)"/>
+            <rect x="96" y="96" width="300" height="22" fill="url(#gNavy)"/>
+            <rect x="120" y="80" width="150" height="9" rx="4.5" fill="#fff" opacity=".9"/>
+            <rect x="120" y="96" width="90" height="7" rx="3.5" fill="#C9A227"/>
+            <!-- wiersze -->
+            <g fill="#D7DEE8"><rect x="120" y="146" width="252" height="9" rx="4.5"/><rect x="120" y="168" width="210" height="9" rx="4.5"/><rect x="120" y="190" width="240" height="9" rx="4.5"/></g>
+            <!-- podświetlony wiersz kosztów -->
+            <rect x="108" y="216" width="276" height="40" rx="9" fill="#FBF3D7" stroke="#C9A227" stroke-width="1.5"/>
+            <rect x="120" y="230" width="120" height="9" rx="4.5" fill="#B8901F"/>
+            <rect x="300" y="230" width="64" height="9" rx="4.5" fill="#B8901F"/>
+            <g fill="#D7DEE8"><rect x="120" y="280" width="252" height="9" rx="4.5"/><rect x="120" y="302" width="180" height="9" rx="4.5"/></g>
+            <!-- mini wykres kosztów -->
+            <g transform="translate(120,332)">
+              <line x1="0" y1="56" x2="252" y2="56" stroke="#E2E8F0" stroke-width="2"/>
+              <rect x="14" y="30" width="26" height="26" rx="3" fill="#1B5E3F"/>
+              <rect x="70" y="16" width="26" height="40" rx="3" fill="#14532D"/>
+              <rect x="126" y="6" width="26" height="50" rx="3" fill="#C9A227"/>
+              <rect x="182" y="24" width="26" height="32" rx="3" fill="#13315C"/>
+            </g>
+          </g>
+          <!-- pieczęć zgodności -->
+          <g transform="translate(330,86)">
+            <circle r="34" fill="#14532D"/>
+            <svg x="-15" y="-15" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </g>
+          <!-- lupa -->
+          <g transform="translate(300,210)">
+            <circle r="58" fill="#fff" opacity=".35"/>
+            <circle r="46" fill="none" stroke="#0B2545" stroke-width="9"/>
+            <circle r="46" fill="#C9A227" opacity=".10"/>
+            <line x1="33" y1="33" x2="74" y2="74" stroke="#0B2545" stroke-width="14" stroke-linecap="round"/>
+            <text x="0" y="9" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="34" fill="#B8901F">%</text>
+          </g>
+        </svg>
+      </div>
     </div>
   </section>
 
   <!-- CO SPRAWDZAMY -->
   <section class="section section--alt" id="co-sprawdzamy">
     <div class="container">
-      <h2>Co dokładnie analizujemy w Twojej umowie</h2>
-      <p class="section__sub">Audyt obejmuje pełną konstrukcję kosztów i obowiązki informacyjne. Punkt po punkcie.</p>
-      <ul class="checklist">
-        <li>Całkowita kwota kredytu</li>
-        <li>Całkowity koszt kredytu</li>
-        <li>Prowizje i ich ujęcie w umowie</li>
-        <li>Opłaty przygotowawcze i administracyjne</li>
-        <li>Ubezpieczenia powiązane z kredytem</li>
-        <li>Sposób naliczania odsetek (podstawa naliczania)</li>
-        <li>Rzeczywista Roczna Stopa Oprocentowania (RRSO)</li>
-        <li>Harmonogram spłat</li>
-        <li>Wypełnienie obowiązków informacyjnych przez bank</li>
-        <li>Przesłanki sankcji kredytu darmowego</li>
-        <li>Zgodność z ustawą o kredycie konsumenckim</li>
-        <li>Podstawy do ewentualnych dalszych kroków prawnych</li>
-      </ul>
-      <div class="center"><a href="#formularz" class="btn btn--gold">Zgłoś kredyt do audytu</a></div>
+      <div class="section__head reveal">
+        <span class="eyebrow eyebrow--green">Zakres audytu</span>
+        <h2>Co dokładnie analizujemy w Twojej umowie</h2>
+        <p class="section__sub center-sub">Pełna konstrukcja kosztów i obowiązki informacyjne — punkt po punkcie.</p>
+      </div>
+      <div class="check-grid">
+        <div class="check-card reveal"><svg class="ico"><use href="#i-coins"/></svg><span>Całkowita kwota kredytu</span></div>
+        <div class="check-card reveal"><svg class="ico"><use href="#i-chart"/></svg><span>Całkowity koszt kredytu</span></div>
+        <div class="check-card reveal"><svg class="ico"><use href="#i-coins"/></svg><span>Prowizje i ich ujęcie w umowie</span></div>
+        <div class="check-card reveal"><svg class="ico"><use href="#i-doc"/></svg><span>Opłaty przygotowawcze i administracyjne</span></div>
+        <div class="check-card reveal"><svg class="ico"><use href="#i-shield"/></svg><span>Ubezpieczenia powiązane z kredytem</span></div>
+        <div class="check-card reveal"><svg class="ico"><use href="#i-percent"/></svg><span>Sposób naliczania odsetek</span></div>
+        <div class="check-card reveal"><svg class="ico"><use href="#i-percent"/></svg><span>Rzeczywista Roczna Stopa Oprocentowania (RRSO)</span></div>
+        <div class="check-card reveal"><svg class="ico"><use href="#i-calendar"/></svg><span>Harmonogram spłat</span></div>
+        <div class="check-card reveal"><svg class="ico"><use href="#i-info"/></svg><span>Obowiązki informacyjne banku</span></div>
+        <div class="check-card reveal"><svg class="ico"><use href="#i-scale"/></svg><span>Przesłanki sankcji kredytu darmowego</span></div>
+        <div class="check-card reveal"><svg class="ico"><use href="#i-book"/></svg><span>Zgodność z ustawą o kredycie konsumenckim</span></div>
+        <div class="check-card reveal"><svg class="ico"><use href="#i-flag"/></svg><span>Podstawy do ewentualnych dalszych kroków</span></div>
+      </div>
+      <div class="center"><a href="#formularz" class="btn btn--gold btn--lg">Zgłoś kredyt do audytu <svg class="ico"><use href="#i-arrow"/></svg></a></div>
     </div>
   </section>
 
   <!-- DLA KOGO -->
-  <section class="section">
+  <section class="section" id="dla-kogo">
     <div class="container">
-      <h2>Dla kogo jest audyt umowy kredytowej</h2>
-      <p class="section__sub">Jeśli rozpoznajesz się w którymkolwiek punkcie — warto sprawdzić.</p>
+      <div class="section__head reveal">
+        <span class="eyebrow eyebrow--green">Adresaci</span>
+        <h2>Dla kogo jest audyt umowy kredytowej</h2>
+        <p class="section__sub center-sub">Jeśli rozpoznajesz się w którymkolwiek punkcie — warto sprawdzić.</p>
+      </div>
       <div class="cards">
-        <div class="cards__item"><h3>Masz aktywny kredyt</h3><p>I chcesz wiedzieć, czy koszty naliczono prawidłowo.</p></div>
-        <div class="cards__item"><h3>Spłaciłeś już kredyt</h3><p>Analiza jest możliwa również po całkowitej spłacie.</p></div>
-        <div class="cards__item"><h3>Masz kredyt konsolidacyjny</h3><p>Duże kwoty kosztów to częste źródło nieprawidłowości.</p></div>
-        <div class="cards__item"><h3>Prowadzisz JDG</h3><p>Najpierw ustalimy charakter umowy (konsument / przedsiębiorca), potem dobierzemy podstawę analizy.</p></div>
-        <div class="cards__item"><h3>Jesteś managerem / masz wyższe dochody</h3><p>Większe lub liczne zobowiązania = większa stawka błędu.</p></div>
-        <div class="cards__item"><h3>Pracujesz w sektorze finansowym</h3><p>Znasz mechanizmy; sprawdź własną umowę zamiast zakładać, że jest poprawna.</p></div>
-        <div class="cards__item"><h3>Podejrzewasz zawyżone koszty</h3><p>Przejdź od przeczucia do konkretnej oceny.</p></div>
-        <div class="cards__item"><h3>Nie wiesz, czy umowa podlega ustawie</h3><p>To też ustalamy w ramach wstępnej weryfikacji.</p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-doc"/></svg></span><h3>Masz aktywny kredyt</h3><p>I chcesz wiedzieć, czy koszty naliczono prawidłowo.</p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-check"/></svg></span><h3>Spłaciłeś już kredyt</h3><p>Analiza jest możliwa również po całkowitej spłacie.</p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-layers"/></svg></span><h3>Masz kredyt konsolidacyjny</h3><p>Duże kwoty kosztów to częste źródło nieprawidłowości.</p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-briefcase"/></svg></span><h3>Prowadzisz JDG</h3><p>Najpierw ustalimy charakter umowy, potem podstawę analizy.</p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-trending"/></svg></span><h3>Manager / wyższe dochody</h3><p>Większe lub liczne zobowiązania = większa stawka błędu.</p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-bank"/></svg></span><h3>Sektor finansowy</h3><p>Znasz mechanizmy — sprawdź własną umowę, nie zakładaj.</p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-search"/></svg></span><h3>Podejrzewasz zawyżone koszty</h3><p>Przejdź od przeczucia do konkretnej oceny.</p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-help"/></svg></span><h3>Nie wiesz, czy podlega ustawie</h3><p>To też ustalamy w ramach wstępnej weryfikacji.</p></div>
       </div>
     </div>
   </section>
@@ -190,127 +279,129 @@
   <!-- DLACZEGO WARTO -->
   <section class="section section--alt">
     <div class="container narrow">
-      <h2>Dlaczego warto sprawdzić umowę, nawet jeśli „wszystko wydaje się w porządku"</h2>
+      <div class="section__head reveal">
+        <span class="eyebrow eyebrow--green">Uzasadnienie</span>
+        <h2>Dlaczego warto sprawdzić umowę, nawet jeśli „wszystko wydaje się w porządku"</h2>
+      </div>
       <ul class="list-arrow">
-        <li>Banki i pożyczkodawcy <strong>również popełniają błędy</strong> — w konstrukcji kosztów, obowiązkach informacyjnych i wyliczeniach.</li>
-        <li><strong>Jeden zapis</strong> potrafi wpływać na całkowity koszt zobowiązania.</li>
-        <li>Większość ludzi patrzy <strong>tylko na ratę</strong>, nie na sposób naliczenia kosztów.</li>
-        <li>Audyt pozwala przejść <strong>od domysłów do konkretnej oceny.</strong></li>
-        <li>Weryfikacja pokazuje, <strong>czy w ogóle istnieją podstawy do roszczeń</strong> — zanim podejmiesz krok.</li>
-        <li>Bez analizy spłacasz dalej <strong>bez wiedzy, czy koszty naliczono prawidłowo.</strong></li>
+        <li class="reveal"><svg class="ico"><use href="#i-arrow"/></svg> Banki i pożyczkodawcy <strong>również popełniają błędy</strong> — w kosztach, obowiązkach informacyjnych i wyliczeniach.</li>
+        <li class="reveal"><svg class="ico"><use href="#i-arrow"/></svg> <strong>Jeden zapis</strong> potrafi wpływać na całkowity koszt zobowiązania.</li>
+        <li class="reveal"><svg class="ico"><use href="#i-arrow"/></svg> Większość ludzi patrzy <strong>tylko na ratę</strong>, nie na sposób naliczenia kosztów.</li>
+        <li class="reveal"><svg class="ico"><use href="#i-arrow"/></svg> Audyt pozwala przejść <strong>od domysłów do konkretnej oceny.</strong></li>
+        <li class="reveal"><svg class="ico"><use href="#i-arrow"/></svg> Weryfikacja pokazuje, <strong>czy istnieją podstawy do roszczeń</strong> — zanim podejmiesz krok.</li>
+        <li class="reveal"><svg class="ico"><use href="#i-arrow"/></svg> Bez analizy spłacasz dalej <strong>bez wiedzy, czy koszty naliczono prawidłowo.</strong></li>
       </ul>
-      <blockquote class="pullquote">Najpierw sprawdź. Potem zdecyduj.</blockquote>
+      <blockquote class="pullquote center-quote">Najpierw sprawdź. Potem zdecyduj.</blockquote>
     </div>
   </section>
 
   <!-- PROCES -->
   <section class="section" id="proces">
     <div class="container">
-      <h2>Jak wygląda audyt — krok po kroku</h2>
+      <div class="section__head reveal">
+        <span class="eyebrow eyebrow--green">Proces</span>
+        <h2>Jak wygląda audyt — krok po kroku</h2>
+        <p class="section__sub center-sub">Cztery proste kroki. Bez chaosu i bez żargonu prawniczego.</p>
+      </div>
       <ol class="steps">
-        <li><span class="steps__num">1</span><h3>Wypełniasz formularz</h3><p>Kilka podstawowych informacji o kredycie.</p></li>
-        <li><span class="steps__num">2</span><h3>Przesyłasz umowę</h3><p>Lub podstawowe dane zobowiązania (PDF, skan, zdjęcie).</p></li>
-        <li><span class="steps__num">3</span><h3>Ekspert analizuje dokumenty</h3><p>Konstrukcję kosztów i zgodność z przepisami.</p></li>
-        <li><span class="steps__num">4</span><h3>Otrzymujesz wstępną informację</h3><p>Czy mogą występować nieprawidłowości i jakie są możliwe dalsze kroki.</p></li>
+        <li class="reveal"><span class="steps__num">1</span><svg class="ico steps__ico"><use href="#i-edit"/></svg><h3>Wypełniasz formularz</h3><p>Kilka podstawowych informacji o kredycie.</p></li>
+        <li class="reveal"><span class="steps__num">2</span><svg class="ico steps__ico"><use href="#i-upload"/></svg><h3>Przesyłasz umowę</h3><p>Lub podstawowe dane zobowiązania (PDF, skan, zdjęcie).</p></li>
+        <li class="reveal"><span class="steps__num">3</span><svg class="ico steps__ico"><use href="#i-search"/></svg><h3>Ekspert analizuje</h3><p>Konstrukcję kosztów i zgodność z przepisami.</p></li>
+        <li class="reveal"><span class="steps__num">4</span><svg class="ico steps__ico"><use href="#i-doc-check"/></svg><h3>Otrzymujesz wynik</h3><p>Czy mogą występować nieprawidłowości i jakie są możliwe dalsze kroki.</p></li>
       </ol>
       <p class="premium-note">Bez chaosu, bez niezrozumiałego języka prawniczego i bez obiecywania wyniku przed analizą dokumentów.</p>
-      <div class="center"><a href="#formularz" class="btn btn--gold">Prześlij umowę do analizy</a></div>
+      <div class="center"><a href="#formularz" class="btn btn--gold btn--lg">Prześlij umowę do analizy <svg class="ico"><use href="#i-arrow"/></svg></a></div>
     </div>
   </section>
 
-  <!-- SYGNAŁY OSTRZEGAWCZE -->
+  <!-- SYGNAŁY -->
   <section class="section section--alt">
-    <div class="container narrow">
-      <h2>Sygnały, które warto sprawdzić w pierwszej kolejności</h2>
-      <p class="section__sub">Jeśli choć jeden brzmi znajomo — audyt jest uzasadniony.</p>
-      <ul class="signals">
-        <li>Wysoka prowizja w stosunku do kwoty kredytu</li>
-        <li>Kredyt konsolidacyjny z dużą kwotą kosztów</li>
-        <li>Niejasne lub „obowiązkowe" ubezpieczenie</li>
-        <li>Odsetki liczone od kwoty wyższej niż wypłacony kapitał</li>
-        <li>Brak czytelnej informacji o całkowitym koszcie</li>
-        <li>Nieprzejrzyste lub trudne do zweryfikowania RRSO</li>
-        <li>Harmonogram, którego nie rozumiesz</li>
-        <li>Wcześniejsza spłata bez pełnego rozliczenia kosztów</li>
-        <li>Kilka kredytów zaciąganych jeden po drugim</li>
-      </ul>
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow eyebrow--gold">Sygnały ostrzegawcze</span>
+        <h2>Sygnały, które warto sprawdzić w pierwszej kolejności</h2>
+        <p class="section__sub center-sub">Jeśli choć jeden brzmi znajomo — audyt jest uzasadniony.</p>
+      </div>
+      <div class="signals">
+        <div class="signal reveal"><svg class="ico"><use href="#i-alert"/></svg><span>Wysoka prowizja w stosunku do kwoty kredytu</span></div>
+        <div class="signal reveal"><svg class="ico"><use href="#i-alert"/></svg><span>Kredyt konsolidacyjny z dużą kwotą kosztów</span></div>
+        <div class="signal reveal"><svg class="ico"><use href="#i-alert"/></svg><span>Niejasne lub „obowiązkowe" ubezpieczenie</span></div>
+        <div class="signal reveal"><svg class="ico"><use href="#i-alert"/></svg><span>Odsetki liczone od kwoty wyższej niż wypłacony kapitał</span></div>
+        <div class="signal reveal"><svg class="ico"><use href="#i-alert"/></svg><span>Brak czytelnej informacji o całkowitym koszcie</span></div>
+        <div class="signal reveal"><svg class="ico"><use href="#i-alert"/></svg><span>Nieprzejrzyste lub trudne do zweryfikowania RRSO</span></div>
+        <div class="signal reveal"><svg class="ico"><use href="#i-alert"/></svg><span>Harmonogram, którego nie rozumiesz</span></div>
+        <div class="signal reveal"><svg class="ico"><use href="#i-alert"/></svg><span>Wcześniejsza spłata bez pełnego rozliczenia kosztów</span></div>
+        <div class="signal reveal"><svg class="ico"><use href="#i-alert"/></svg><span>Kilka kredytów zaciąganych jeden po drugim</span></div>
+      </div>
     </div>
   </section>
 
   <!-- KORZYŚCI -->
   <section class="section">
     <div class="container">
-      <h2>Co realnie zyskujesz dzięki audytowi</h2>
+      <div class="section__head reveal">
+        <span class="eyebrow eyebrow--green">Korzyści</span>
+        <h2>Co realnie zyskujesz dzięki audytowi</h2>
+      </div>
       <div class="cards cards--3">
-        <div class="cards__item"><p>Dowiesz się, <strong>czy umowa wymaga głębszej analizy.</strong></p></div>
-        <div class="cards__item"><p>Poznasz <strong>potencjalne błędy</strong> w konstrukcji kredytu.</p></div>
-        <div class="cards__item"><p>Sprawdzisz, <strong>czy koszty naliczono prawidłowo.</strong></p></div>
-        <div class="cards__item"><p>Uzyskasz <strong>ocenę, czy warto</strong> podejmować dalsze działania.</p></div>
-        <div class="cards__item"><p>Możliwe <strong>zidentyfikowanie podstaw do roszczeń.</strong></p></div>
-        <div class="cards__item"><p>Decyzję podejmiesz <strong>na podstawie analizy, nie domysłów.</strong></p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-search"/></svg></span><p>Dowiesz się, <strong>czy umowa wymaga głębszej analizy.</strong></p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-alert"/></svg></span><p>Poznasz <strong>potencjalne błędy</strong> w konstrukcji kredytu.</p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-chart"/></svg></span><p>Sprawdzisz, <strong>czy koszty naliczono prawidłowo.</strong></p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-scale"/></svg></span><p>Uzyskasz <strong>ocenę, czy warto</strong> podejmować dalsze działania.</p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-flag"/></svg></span><p>Możliwe <strong>zidentyfikowanie podstaw do roszczeń.</strong></p></div>
+        <div class="cards__item reveal"><span class="ic-badge"><svg class="ico"><use href="#i-doc-check"/></svg></span><p>Decyzję podejmiesz <strong>na podstawie analizy, nie domysłów.</strong></p></div>
       </div>
     </div>
   </section>
 
   <!-- FORMULARZ GŁÓWNY -->
   <section class="section section--dark" id="formularz">
-    <div class="container narrow">
-      <h2 class="on-dark">Zgłoś kredyt do wstępnej weryfikacji</h2>
-      <p class="section__sub on-dark">
-        Wypełnij formularz i — jeśli chcesz — załącz umowę. Otrzymasz wstępną informację,
-        czy Twoja umowa kwalifikuje się do analizy. Bez zobowiązań.
-      </p>
+    <div class="container form-split">
+      <div class="form-split__aside reveal">
+        <span class="eyebrow eyebrow--ondark">Zgłoszenie</span>
+        <h2 class="on-dark">Zgłoś kredyt do wstępnej weryfikacji</h2>
+        <p class="section__sub on-dark">
+          Wypełnij formularz i — jeśli chcesz — załącz umowę. Otrzymasz wstępną informację,
+          czy Twoja umowa kwalifikuje się do analizy. Bez zobowiązań.
+        </p>
+        <ul class="assure">
+          <li><svg class="ico"><use href="#i-lock"/></svg> Dane przetwarzamy poufnie, zgodnie z RODO</li>
+          <li><svg class="ico"><use href="#i-clock"/></svg> Odpowiadamy zwykle w 1 dzień roboczy</li>
+          <li><svg class="ico"><use href="#i-shield"/></svg> Wstępna analiza nie zobowiązuje do dalszych kroków</li>
+        </ul>
+        <svg class="illu illu--shield" viewBox="0 0 240 200" aria-hidden="true">
+          <rect x="20" y="20" width="200" height="160" rx="18" fill="#0E2A50"/>
+          <path d="M120 50l40 14v26c0 30-40 44-40 44s-40-14-40-44V64z" fill="#13315C" stroke="#C9A227" stroke-width="2"/>
+          <path d="M104 96l12 12 22-24" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
 
-      <form class="form form--full card" novalidate enctype="multipart/form-data">
+      <form class="form form--full card reveal" novalidate enctype="multipart/form-data">
         <div class="form__row">
-          <label>Imię i nazwisko *
-            <input type="text" name="name" required autocomplete="name" />
-          </label>
-          <label>Telefon *
-            <input type="tel" name="phone" required autocomplete="tel" />
-          </label>
+          <label>Imię i nazwisko *<input type="text" name="name" required autocomplete="name" /></label>
+          <label>Telefon *<input type="tel" name="phone" required autocomplete="tel" /></label>
         </div>
-
         <div class="form__row">
-          <label>E-mail *
-            <input type="email" name="email" required autocomplete="email" />
-          </label>
+          <label>E-mail *<input type="email" name="email" required autocomplete="email" /></label>
           <label>Rodzaj kredytu
             <select name="loan_type">
-              <option value="">— wybierz —</option>
-              <option>Gotówkowy</option>
-              <option>Konsolidacyjny</option>
-              <option>Ratalny</option>
-              <option>Pożyczka</option>
-              <option>Limit / karta kredytowa</option>
-              <option>Hipoteczny</option>
-              <option>Inny</option>
+              <option value="">— wybierz —</option><option>Gotówkowy</option><option>Konsolidacyjny</option><option>Ratalny</option><option>Pożyczka</option><option>Limit / karta kredytowa</option><option>Hipoteczny</option><option>Inny</option>
             </select>
           </label>
         </div>
-
         <div class="form__row">
-          <label>Nazwa banku lub instytucji
-            <input type="text" name="bank" />
-          </label>
+          <label>Nazwa banku lub instytucji<input type="text" name="bank" /></label>
           <label>Przybliżona kwota kredytu
             <select name="amount">
-              <option value="">— wybierz —</option>
-              <option>do 20 000 zł</option>
-              <option>20 000 – 50 000 zł</option>
-              <option>50 000 – 100 000 zł</option>
-              <option>100 000 – 300 000 zł</option>
-              <option>powyżej 300 000 zł</option>
+              <option value="">— wybierz —</option><option>do 20 000 zł</option><option>20 000 – 50 000 zł</option><option>50 000 – 100 000 zł</option><option>100 000 – 300 000 zł</option><option>powyżej 300 000 zł</option>
             </select>
           </label>
         </div>
-
         <fieldset class="form__group">
           <legend>Status kredytu</legend>
           <label class="radio"><input type="radio" name="status" value="aktywny" /> Aktywny</label>
           <label class="radio"><input type="radio" name="status" value="splacony" /> Spłacony</label>
         </fieldset>
-
         <fieldset class="form__group">
           <legend>Charakter umowy</legend>
           <label class="radio"><input type="radio" name="character" value="konsument" /> Jako konsument</label>
@@ -318,23 +409,13 @@
           <label class="radio"><input type="radio" name="character" value="firma" /> Firma</label>
           <label class="radio"><input type="radio" name="character" value="niewiem" /> Nie wiem</label>
         </fieldset>
-
         <label class="file">Załącz umowę (opcjonalnie) — PDF / JPG / PNG, do 15 MB
           <input type="file" name="document" accept=".pdf,.jpg,.jpeg,.png" />
         </label>
-
-        <label class="check">
-          <input type="checkbox" name="rodo" required />
-          <span>Wyrażam zgodę na przetwarzanie moich danych osobowych w celu obsługi zgłoszenia, zgodnie z <a href="#">polityką prywatności</a> (RODO). *</span>
-        </label>
-
-        <label class="check">
-          <input type="checkbox" name="prelim" />
-          <span>Chcę otrzymać wstępną informację, czy moja umowa kwalifikuje się do analizy.</span>
-        </label>
-
-        <button type="submit" class="btn btn--gold btn--block">Prześlij umowę do audytu</button>
-        <p class="form__micro on-dark">Bez zobowiązań. Dane przetwarzamy poufnie zgodnie z RODO. Odpowiadamy zwykle w 1 dzień roboczy.</p>
+        <label class="check"><input type="checkbox" name="rodo" required /><span>Wyrażam zgodę na przetwarzanie moich danych osobowych w celu obsługi zgłoszenia, zgodnie z <a href="#">polityką prywatności</a> (RODO). *</span></label>
+        <label class="check"><input type="checkbox" name="prelim" /><span>Chcę otrzymać wstępną informację, czy moja umowa kwalifikuje się do analizy.</span></label>
+        <button type="submit" class="btn btn--gold btn--block btn--lg">Prześlij umowę do audytu <svg class="ico"><use href="#i-arrow"/></svg></button>
+        <p class="form__micro on-dark"><svg class="ico ico--xs"><use href="#i-lock"/></svg> Bez zobowiązań. Dane przetwarzamy poufnie zgodnie z RODO.</p>
       </form>
     </div>
   </section>
@@ -342,28 +423,40 @@
   <!-- FAQ -->
   <section class="section" id="faq">
     <div class="container narrow">
-      <h2>Najczęściej zadawane pytania</h2>
-      <div class="faq">
-        <details><summary>Czy mogę sprawdzić kredyt, który już spłaciłem?</summary><div class="faq__a">Tak. Analiza jest możliwa również po całkowitej spłacie zobowiązania. Potrzebne są dokumenty umowy i — jeśli to możliwe — rozliczenie spłaty. To, czy istnieją podstawy do dalszych kroków, zależy od treści dokumentów i obowiązujących terminów.</div></details>
-        <details><summary>Czy audyt dotyczy kredytów gotówkowych?</summary><div class="faq__a">Tak. Kredyty gotówkowe są jednym z najczęstszych przedmiotów audytu — sprawdzamy w nich m.in. prowizję, sposób naliczania odsetek, RRSO i całkowity koszt kredytu.</div></details>
-        <details><summary>Czy audyt dotyczy kredytów konsolidacyjnych?</summary><div class="faq__a">Tak. W konsolidacjach często występują wysokie koszty i złożona konstrukcja, dlatego są szczególnie warte weryfikacji.</div></details>
-        <details><summary>Czy mogę zgłosić kredyt jako osoba prowadząca JDG?</summary><div class="faq__a">Tak, ale w pierwszej kolejności ustalamy charakter umowy — czy została zawarta jako konsument, jako przedsiębiorca, czy ma charakter mieszany. Od tego zależy, na gruncie jakich przepisów możliwa jest analiza. Ustawa o kredycie konsumenckim co do zasady dotyczy konsumentów.</div></details>
-        <details><summary>Czy każda umowa podlega pod ustawę o kredycie konsumenckim?</summary><div class="faq__a">Nie. Ustawa obejmuje określone kategorie kredytów konsumenckich. Część umów — zwłaszcza firmowych — może jej nie podlegać. Ustalenie tego jest częścią wstępnej weryfikacji.</div></details>
-        <details><summary>Czy audyt oznacza automatycznie pozew przeciwko bankowi?</summary><div class="faq__a">Nie. Audyt to analiza i ocena. Czy i jakie kroki podjąć, decydujesz wyłącznie Ty — po zapoznaniu się z wynikiem. Sprawdzenie umowy nie zobowiązuje do żadnych działań.</div></details>
-        <details><summary>Czy muszę mieć całą umowę?</summary><div class="faq__a">Najlepiej tak — pełna umowa z załącznikami i harmonogramem daje najdokładniejszą ocenę. Jeśli masz tylko część dokumentów, i tak możemy przeprowadzić wstępną weryfikację i wskazać, czego brakuje.</div></details>
-        <details><summary>Czy analiza jest wiążącą opinią prawną?</summary><div class="faq__a">Wstępna analiza ma charakter informacyjny i nie zastępuje pełnej porady prawnej, jeżeli nie jest świadczona przez uprawniony podmiot (adwokata lub radcę prawnego). Wskazuje, czy sprawa jest warta dalszego, pogłębionego prowadzenia.</div></details>
-        <details><summary>Jakie dokumenty są potrzebne?</summary><div class="faq__a">Minimum: umowa kredytu/pożyczki. Pomocne: harmonogram spłat, regulamin/tabela opłat, dokumenty ubezpieczenia, potwierdzenia spłat lub zaświadczenie o spłacie (przy kredytach zamkniętych).</div></details>
-        <details><summary>Czy bank może naliczać odsetki od prowizji?</summary><div class="faq__a">To jeden z elementów, które sprawdzamy. Sposób ujęcia prowizji i podstawa naliczania odsetek bywają źródłem nieprawidłowości — ocena zależy od konkretnych zapisów Twojej umowy i obowiązujących przepisów.</div></details>
-        <details><summary>Czym jest sankcja kredytu darmowego?</summary><div class="faq__a">To przewidziany w ustawie o kredycie konsumenckim mechanizm, który w określonych sytuacjach (np. naruszenie obowiązków informacyjnych lub wymogów co do treści umowy) może oznaczać spłatę kredytu bez odsetek i kosztów. Czy ma zastosowanie w Twoim przypadku, zależy od treści umowy — to właśnie weryfikujemy.</div></details>
-        <details><summary>Czy analiza gwarantuje odzyskanie pieniędzy?</summary><div class="faq__a">Nie. Nie obiecujemy żadnego wyniku przed analizą dokumentów. Audyt mówi, czy istnieją podstawy do dalszych działań — sam w sobie nie jest gwarancją odzyskania środków ani unieważnienia umowy.</div></details>
+      <div class="section__head reveal">
+        <span class="eyebrow eyebrow--green">FAQ</span>
+        <h2>Najczęściej zadawane pytania</h2>
       </div>
+      <div class="faq">
+        <details class="reveal"><summary>Czy mogę sprawdzić kredyt, który już spłaciłem?</summary><div class="faq__a">Tak. Analiza jest możliwa również po całkowitej spłacie zobowiązania. Potrzebne są dokumenty umowy i — jeśli to możliwe — rozliczenie spłaty. To, czy istnieją podstawy do dalszych kroków, zależy od treści dokumentów i obowiązujących terminów.</div></details>
+        <details class="reveal"><summary>Czy audyt dotyczy kredytów gotówkowych?</summary><div class="faq__a">Tak. Kredyty gotówkowe są jednym z najczęstszych przedmiotów audytu — sprawdzamy w nich m.in. prowizję, sposób naliczania odsetek, RRSO i całkowity koszt kredytu.</div></details>
+        <details class="reveal"><summary>Czy audyt dotyczy kredytów konsolidacyjnych?</summary><div class="faq__a">Tak. W konsolidacjach często występują wysokie koszty i złożona konstrukcja, dlatego są szczególnie warte weryfikacji.</div></details>
+        <details class="reveal"><summary>Czy mogę zgłosić kredyt jako osoba prowadząca JDG?</summary><div class="faq__a">Tak, ale w pierwszej kolejności ustalamy charakter umowy — czy została zawarta jako konsument, jako przedsiębiorca, czy ma charakter mieszany. Od tego zależy, na gruncie jakich przepisów możliwa jest analiza. Ustawa o kredycie konsumenckim co do zasady dotyczy konsumentów.</div></details>
+        <details class="reveal"><summary>Czy każda umowa podlega pod ustawę o kredycie konsumenckim?</summary><div class="faq__a">Nie. Ustawa obejmuje określone kategorie kredytów konsumenckich. Część umów — zwłaszcza firmowych — może jej nie podlegać. Ustalenie tego jest częścią wstępnej weryfikacji.</div></details>
+        <details class="reveal"><summary>Czy audyt oznacza automatycznie pozew przeciwko bankowi?</summary><div class="faq__a">Nie. Audyt to analiza i ocena. Czy i jakie kroki podjąć, decydujesz wyłącznie Ty — po zapoznaniu się z wynikiem. Sprawdzenie umowy nie zobowiązuje do żadnych działań.</div></details>
+        <details class="reveal"><summary>Czy muszę mieć całą umowę?</summary><div class="faq__a">Najlepiej tak — pełna umowa z załącznikami i harmonogramem daje najdokładniejszą ocenę. Jeśli masz tylko część dokumentów, i tak możemy przeprowadzić wstępną weryfikację i wskazać, czego brakuje.</div></details>
+        <details class="reveal"><summary>Czy analiza jest wiążącą opinią prawną?</summary><div class="faq__a">Wstępna analiza ma charakter informacyjny i nie zastępuje pełnej porady prawnej, jeżeli nie jest świadczona przez uprawniony podmiot (adwokata lub radcę prawnego). Wskazuje, czy sprawa jest warta dalszego, pogłębionego prowadzenia.</div></details>
+        <details class="reveal"><summary>Jakie dokumenty są potrzebne?</summary><div class="faq__a">Minimum: umowa kredytu/pożyczki. Pomocne: harmonogram spłat, regulamin/tabela opłat, dokumenty ubezpieczenia, potwierdzenia spłat lub zaświadczenie o spłacie (przy kredytach zamkniętych).</div></details>
+        <details class="reveal"><summary>Czy bank może naliczać odsetki od prowizji?</summary><div class="faq__a">To jeden z elementów, które sprawdzamy. Sposób ujęcia prowizji i podstawa naliczania odsetek bywają źródłem nieprawidłowości — ocena zależy od konkretnych zapisów Twojej umowy i obowiązujących przepisów.</div></details>
+        <details class="reveal"><summary>Czym jest sankcja kredytu darmowego?</summary><div class="faq__a">To przewidziany w ustawie o kredycie konsumenckim mechanizm, który w określonych sytuacjach (np. naruszenie obowiązków informacyjnych lub wymogów co do treści umowy) może oznaczać spłatę kredytu bez odsetek i kosztów. Czy ma zastosowanie w Twoim przypadku, zależy od treści umowy — to właśnie weryfikujemy.</div></details>
+        <details class="reveal"><summary>Czy analiza gwarantuje odzyskanie pieniędzy?</summary><div class="faq__a">Nie. Nie obiecujemy żadnego wyniku przed analizą dokumentów. Audyt mówi, czy istnieją podstawy do dalszych działań — sam w sobie nie jest gwarancją odzyskania środków ani unieważnienia umowy.</div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINALNE CTA -->
+  <section class="cta-band">
+    <div class="container cta-band__inner reveal">
+      <h2 class="on-dark">Nie zakładaj, że bank policzył wszystko prawidłowo.</h2>
+      <p>Wstępna weryfikacja jest niezobowiązująca. Najpierw sprawdź — potem zdecyduj.</p>
+      <a href="#formularz" class="btn btn--gold btn--lg">Sprawdź swoją umowę <svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
   </section>
 
   <!-- DISCLAIMER -->
   <section class="section section--muted">
     <div class="container narrow">
-      <h2 class="h-sm">Ważne informacje</h2>
+      <h2 class="h-sm"><svg class="ico"><use href="#i-info"/></svg> Ważne informacje</h2>
       <p class="disclaimer">
         Wstępna analiza umowy nie jest gwarancją uzyskania jakiegokolwiek roszczenia ani odzyskania środków.
         Wynik zależy od treści i kompletności przekazanych dokumentów. Nie każda umowa kwalifikuje się do
@@ -379,17 +472,14 @@
     <div class="container site-footer__inner">
       <span class="logo logo--footer">[Marka]<span class="logo__dot">.</span></span>
       <nav class="footer-nav">
-        <a href="#">Polityka prywatności</a>
-        <a href="#">Regulamin</a>
-        <a href="#co-sprawdzamy">Co sprawdzamy</a>
-        <a href="#faq">FAQ</a>
+        <a href="#">Polityka prywatności</a><a href="#">Regulamin</a><a href="#co-sprawdzamy">Co sprawdzamy</a><a href="#faq">FAQ</a>
       </nav>
       <span class="copy">© <span id="year"></span> [Marka]. Wszelkie prawa zastrzeżone.</span>
     </div>
   </footer>
 
   <!-- STICKY CTA MOBILE -->
-  <a href="#formularz" class="sticky-cta">Sprawdź swoją umowę</a>
+  <a href="#formularz" class="sticky-cta">Sprawdź swoją umowę <svg class="ico ico--xs"><use href="#i-arrow"/></svg></a>
 
   <script src="assets/app.js" defer></script>
 </body>
