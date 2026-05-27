@@ -405,9 +405,10 @@ Pełna specyfikacja w **SEO.md**. Skrót:
 ## 10. UX/UI
 Pełna specyfikacja w sekcji 11 briefu + zaimplementowana w `index.html`/`assets/styles.css`. Skrót:
 - Paleta: granat `#0B2545`, zieleń `#14532D`, biel `#FFFFFF`, grafit `#1F2933`, złoty akcent `#C9A227`.
-- Typografia: nagłówki serif (Fraunces / fallback Georgia), tekst sans (Inter / system).
-- Hero 2-kolumnowy (treść + formularz po prawej), checklist 2 kolumny, proces 4 kroki, FAQ accordion, sticky CTA mobile, pasek zaufania.
-- Mobile-first, duża ilość bieli, mocny kontrast CTA, ikony liniowe, brak tanich stocków.
+- Typografia (v2): nagłówki **Plus Jakarta Sans** (700/800), tekst **Inter**. Nowoczesny premium sans — zaufanie fintech/legal (porzucono dekoracyjny serif Fraunces na życzenie właściciela).
+- Hero 2-kolumnowy (treść + formularz po prawej) z dekoracyjnym tłem (bloby + siatka), pasek wiarygodności (4 fakty), checklist 3 kolumny z ikonami, oś procesu z linią łączącą, FAQ accordion, finalne CTA-band, sticky CTA mobile, pasek zaufania.
+- Grafika = **wektor (SVG)**: 2 ilustracje (audyt dokumentu z lupą, tarcza/bezpieczeństwo) + system 25 ikon liniowych (sprite). Brak tanich stocków (zgodnie z briefem).
+- Mobile-first, duża ilość bieli, mocny kontrast CTA, hover-lift kafelków, reveal-on-scroll (z poszanowaniem `prefers-reduced-motion`).
 
 ---
 
