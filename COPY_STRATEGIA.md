@@ -280,8 +280,10 @@ Patrz pkt. 8 niżej (pełne pytania i odpowiedzi).
 
 ### Sekcja 11 — DISCLAIMER PRAWNY
 **Nagłówek:** Ważne informacje
-**Treść:**
-> Wstępna analiza umowy **nie jest gwarancją uzyskania jakiegokolwiek roszczenia** ani odzyskania środków. Wynik zależy od treści i kompletności przekazanych dokumentów. **Nie każda umowa kwalifikuje się** do dalszych działań prawnych. Wstępna analiza ma charakter informacyjny i **nie zastępuje pełnej porady prawnej**, jeżeli nie jest świadczona przez podmiot do tego uprawniony (adwokata lub radcę prawnego). Przedstawione treści nie stanowią obietnicy wyniku ani porady inwestycyjnej. Decyzję o dalszych krokach podejmuje wyłącznie klient.
+**Treść (LIVE — z partnerem prawnym):**
+> Wstępna analiza umowy ma charakter informacyjny i **nie jest gwarancją uzyskania jakiegokolwiek roszczenia** ani odzyskania środków. Wynik zależy od treści i kompletności przekazanych dokumentów — **nie każda umowa kwalifikuje się** do dalszych działań prawnych. **Pełną poradę prawną oraz ewentualne prowadzenie sprawy realizuje partner projektu — Kancelaria Prawna mec. Mateusz Rychlik**, podmiot uprawniony do świadczenia pomocy prawnej. Przedstawione treści nie stanowią obietnicy wyniku. Decyzję o dalszych krokach podejmuje wyłącznie klient.
+
+> **Uwaga:** partnerstwo z kancelarią porządkuje status prawny — podmiot prowadzący LP wykonuje *wstępny audyt* (analiza/weryfikacja), a *pełną pomoc prawną* świadczy uprawniona kancelaria partnera. Patrz `DO_UNIKANIA_PRAWNE.md` reguła #4.
 
 ---
 
